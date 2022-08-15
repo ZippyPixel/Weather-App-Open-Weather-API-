@@ -74,6 +74,10 @@ class WeatherResponse {
     final icon = json['weather'][0]['icon'];
 
     return WeatherResponse(
-        description: description, temp: temp, feelsLike: feelsLike, icon: icon);
+      description: description,
+      temp: temp,
+      feelsLike: feelsLike,
+      icon: icon,
+    );
   }
 }
